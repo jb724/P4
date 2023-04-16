@@ -1,0 +1,67 @@
+<!-- DEVELOPER: Jonathan Barnes, IS117-006, Spring 2023 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Player Stats</title>
+  <link rel="shortcut icon" href="../images/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../styles/playerstats.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../index.html">PL Stats</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="reference.html">Reference</a>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comparison Tools</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Player Comparison Tool</a>
+            <a class="dropdown-item" href="teamstats.html">Team Comparison Tool</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-form">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="player-image img-fluid" src="../images/salah.png" alt="Salah">
+          <div class="player-stats">
+            <h3>Mohamed Salah</h3>
+            <p>Goals: <span class="salah-goal-tally">23</span></p>
+            <p>Assists: <span class="salah-assist-tally">13</span></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="player-image img-fluid" src="../images/son.png" alt="Son">
+          <div class="player-stats">
+            <h3>Son Heung-Min</h3>
+            <p>Goals: <span class="son-goal-tally">23</span></p>
+            <p>Assists: <span class="son-assist-tally">7</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container text-center">
+      <span class="text-white">&copy; 2023, Jonathan Barnes</span>
+    </div>
+  </footer> 
+</body>
+</html>	

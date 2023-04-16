@@ -1,0 +1,71 @@
+<!-- DEVELOPER: Jonathan Barnes, IS117-006, Spring 2023 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">PL Stats</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="html/contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="html/reference.html">Reference</a>
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comparison Tools</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="html/playerstats.html">Player Comparison Tool</a>
+            <a class="dropdown-item" href="html/teamstats.html">Team Comparison Tool</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron text-center">
+    <h1 class="display-4 text-white pt-5">Welcome to PL Stats</h1>
+    <div class="spacer"></div>
+    <div class="container position-relative">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/players.jpg" class="card-img-top img-fluid" alt="Players Image">
+            <div class="card-body">
+              <h5 class="card-title"><a href="html/playerstats.html">Player Comparison Tool</a></h5>
+              <p class="card-text">Compare Stats Between 2 Players</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="images/teams.jpg" class="card-img-top img-fluid" alt="Teams Image">
+            <div class="card-body">
+              <h5 class="card-title"><a href="html/teamstats.html">Team Comparison Tool</a></h5>
+              <p class="card-text">Compare Stats Between 2 Teams</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container text-center">
+      <span class="text-white">&copy; 2023, Jonathan Barnes</span>
+    </div>
+  </footer> 
+</body>
+</html>	
